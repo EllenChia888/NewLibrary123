@@ -1,0 +1,16 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: 标签1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: 标签1
+    Id: g=e7ad68abadf62f6b7529e77fec32e42d
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"标签1"}
